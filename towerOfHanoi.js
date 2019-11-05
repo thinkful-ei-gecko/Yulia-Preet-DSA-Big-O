@@ -1,16 +1,16 @@
-function towerOfHanoi(arr) {
-  const rodHeight = arr[0].length;
-  const rodA = arr[0];
-  const rodB = arr[1];
-  const rodC = arr[2];
-  if (rodC.length === rodHeight) {
-    return;
+function towerOfHanoi(numberOfDiscs, source, dest, temp) {
+  if (numberOfDiscs >= 1) {
+    towerOfHanoi(numberOfDiscs - 1, source, temp, dest);
+    console.log('first recursive call: ' + source +  ' to ' +  dest);
+
+    towerOfHanoi(numberOfDiscs - 1, temp, dest, source);
   }
+  
+  return;
 }
 
-number - number of disc 
+towerOfHanoi(3, 'A', 'C', 'B');
 
-arr [['-', '--', '---', '----'],[],[]]
+//A - source , C - destination, B - temporary pole
 
-arr [['----', '---', '--', '-']]
-
+// A to C, A to B, C to B, A to C, B to A, B to C, A to C
