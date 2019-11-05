@@ -75,6 +75,15 @@ function factorial(num){
   }
   return result;
 }
-console.log(factorial(5));
+//console.log(factorial(5));
 
 //Q7 Fib
+
+function fibonacci(num) {
+  let startSeq = [0, 1];
+  for ( let i = 2; i<=num; i++) {
+    startSeq.push(startSeq[i-1]+startSeq[i-2]);
+  }
+  return startSeq;
+}
+console.log(fibonacci(7));
