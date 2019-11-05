@@ -1,0 +1,41 @@
+Q1. What is the Big O for this?
+a) Constant time - O(1)
+b) We have to loop through the data, therefore: linear time: O(n)
+
+Q2: Even or Odd
+Taking one value, no matter how large and finding the remainder, therefore, constant time
+O(1)
+
+Q3: Are you here?
+Looping over two arrays (a and b)- with the second for loop nested within the first
+O(n^2)
+
+Q4: Doubler
+Iterating through length of the array once - larger the array - larger the time, therefore
+linear time - O(n)
+
+Q5: Naive search
+Same as above - but the function can finish executing earlier - worst case is linear time 
+O(n)
+
+Q6: Creating pairs
+Iterating through the first array via for loop, and then iterating again through a nested for loop.
+Polynomial time - O(n^2)
+
+Q7: Compute the sequence
+The bigger the number - greater time to complete algorithm, within loop
+linear time - O(n)
+
+Q8: An efficient search 
+We are starting with a sorted array, which is cut in the middle when performing the iteration, therefore eliminating a
+subset of the data. Therefore logarithmic time - O(log(n))
+
+Q9: Random element
+Array index, finding a random element - no matter how large the array is, function will always find one element 
+constant time - O(1)
+
+Q10: What Am I?
+larger n is, greater number of iterations, therefore linear time - O(n)
+
+
+
