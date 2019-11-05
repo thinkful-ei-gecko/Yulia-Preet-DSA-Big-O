@@ -86,4 +86,4 @@ function fibonacci(num) {
   }
   return startSeq;
 }
-console.log(fibonacci(7));
+// console.log(fibonacci(7));

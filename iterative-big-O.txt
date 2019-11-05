@@ -1,0 +1,13 @@
+Q1: O(n) - for loop executing, linear time
+
+Q2: O(n) - as above - for loop executing
+
+Q3: O(n) - as above - for loop executing through the string length
+
+Q4: O(n) - as above - for loop going through the number
+
+Q5: O(n) - 
+
+Q6: O(n) - as above with the for loop - iterating through number
+
+Q7: O(n) - using a for loop to iterate over the starting sequence array. 
