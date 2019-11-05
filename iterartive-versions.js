@@ -46,3 +46,35 @@ function triangularNumber(num) {
   return result;
 }
 // console.log(triangularNumber(5));
+
+
+//Q5: String splitter - to finish
+function stringSplitter(str, separator){
+  let result = [];
+  let index = str.indexOf(separator);
+
+  for (let i = 0; i < str.length; i++){
+    //console.log(str);
+    if(index !== -1){
+      result.push(str.slice(0, index));
+    }
+    else {
+      result.push(str); 
+    }
+    str = str.slice(index + 1);
+  }
+  return result; 
+}
+// console.log((stringSplitter('01/21/2018', '/')));
+
+//Q6: Factorial
+function factorial(num){
+  let result = 1;
+  for(let i = 0; i < num; i++){
+    result *=(num - i);
+  }
+  return result;
+}
+console.log(factorial(5));
+
+//Q7 Fib
