@@ -33,3 +33,16 @@ function reverseString(str){
 }
 // console.log(reverseString('hello'));
 
+//Q4: Triangular number
+
+function triangularNumber(num) {
+  let result = num;
+  if (num === 1) {
+    return 1;
+  }
+  for (let i = 1; i<num; i++) {
+    result += i;
+  }
+  return result;
+}
+// console.log(triangularNumber(5));
