@@ -1,0 +1,41 @@
+1. Count sheep - O(n)-linear time complexity
+Because we have only one recursive case that is ran n times it is 
+linear time
+
+2. Power calculator - O(n)
+Same as Count sheep
+
+3. Reverse string - O(n)
+Number of operations grows as an input grows.
+
+4. Triangular number - O(n)
+Same as before
+
+5. String splitter - O(n)
+Same as before
+
+6. Factorial - O(n)
+
+7. Fibonacci - O(2^n)
+Beacuse we call the function twice inside itselt it is going to
+increase number of operations much faster compare to input's growth
+
+8. Maze - O(n^4)
+We calling the recursive function 4 times, but we don't visit
+cells that are visited.
+
+9. Maze( all the ways) - O(n^4)
+
+10. Anagrams - O(2^n)
+We call recursion as many times as our string length is. That means that
+with growing input size we migth face a tremendous growth of the
+number of operations. Therefore it is exponentional time.
+
+11. Organizatonal chart - O(2^n)
+Same as before
+
+12. Binary representaion - O(log(n))
+Beacuse we devide number by two each time our steps doesn't grow dramaticaly
+with growing input size. Therefore it'a logarithmic time.
+
+
