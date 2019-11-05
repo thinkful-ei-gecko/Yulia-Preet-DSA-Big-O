@@ -48,15 +48,15 @@ function triangularNumber(num) {
 // console.log(triangularNumber(5));
 
 
-//Q5: String splitter - to finish
+//Q5: String splitter 
 function stringSplitter(str, separator){
   let result = [];
   let index = str.indexOf(separator);
 
   for (let i = 0; i < str.length; i++){
     //console.log(str);
-    if(index !== -1){
-      result.push(str.slice(0, index));
+    if(str.indexOf(separator) !== -1){
+      result.push(str.slice(0, str.indexOf(separator)));
     }
     else {
       result.push(str); 
